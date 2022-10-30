@@ -41,45 +41,72 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/treel/Projects/Clion/Learning-of-Cpp/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Learning_of_Cpp
+# Object build statements for EXECUTABLE target Learning_of_Cpp_One
 
 
 #############################################
-# Order-only phony target for Learning_of_Cpp
+# Order-only phony target for Learning_of_Cpp_One
 
-build cmake_object_order_depends_target_Learning_of_Cpp: phony || CMakeFiles/Learning_of_Cpp.dir
+build cmake_object_order_depends_target_Learning_of_Cpp_One: phony || CMakeFiles/Learning_of_Cpp_One.dir
 
-build CMakeFiles/Learning_of_Cpp.dir/main.cpp.obj: CXX_COMPILER__Learning_of_Cpp_Debug C$:/Users/treel/Projects/Clion/Learning-of-Cpp/main.cpp || cmake_object_order_depends_target_Learning_of_Cpp
-  DEP_FILE = CMakeFiles\Learning_of_Cpp.dir\main.cpp.obj.d
+build CMakeFiles/Learning_of_Cpp_One.dir/main.cpp.obj: CXX_COMPILER__Learning_of_Cpp_One_Debug C$:/Users/treel/Projects/Clion/Learning-of-Cpp/main.cpp || cmake_object_order_depends_target_Learning_of_Cpp_One
+  DEP_FILE = CMakeFiles\Learning_of_Cpp_One.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   INCLUDES = -IC:/Users/treel/Projects/Clion/Learning-of-Cpp/.
-  OBJECT_DIR = CMakeFiles\Learning_of_Cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\Learning_of_Cpp.dir
-
-build CMakeFiles/Learning_of_Cpp.dir/test.cpp.obj: CXX_COMPILER__Learning_of_Cpp_Debug C$:/Users/treel/Projects/Clion/Learning-of-Cpp/test.cpp || cmake_object_order_depends_target_Learning_of_Cpp
-  DEP_FILE = CMakeFiles\Learning_of_Cpp.dir\test.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/treel/Projects/Clion/Learning-of-Cpp/.
-  OBJECT_DIR = CMakeFiles\Learning_of_Cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\Learning_of_Cpp.dir
+  OBJECT_DIR = CMakeFiles\Learning_of_Cpp_One.dir
+  OBJECT_FILE_DIR = CMakeFiles\Learning_of_Cpp_One.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Learning_of_Cpp
+# Link build statements for EXECUTABLE target Learning_of_Cpp_One
 
 
 #############################################
-# Link the executable Learning_of_Cpp.exe
+# Link the executable Learning_of_Cpp_One.exe
 
-build Learning_of_Cpp.exe: CXX_EXECUTABLE_LINKER__Learning_of_Cpp_Debug CMakeFiles/Learning_of_Cpp.dir/main.cpp.obj CMakeFiles/Learning_of_Cpp.dir/test.cpp.obj
+build Learning_of_Cpp_One.exe: CXX_EXECUTABLE_LINKER__Learning_of_Cpp_One_Debug CMakeFiles/Learning_of_Cpp_One.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Learning_of_Cpp.dir
+  OBJECT_DIR = CMakeFiles\Learning_of_Cpp_One.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Learning_of_Cpp.exe
-  TARGET_IMPLIB = libLearning_of_Cpp.dll.a
-  TARGET_PDB = Learning_of_Cpp.exe.dbg
+  TARGET_FILE = Learning_of_Cpp_One.exe
+  TARGET_IMPLIB = libLearning_of_Cpp_One.dll.a
+  TARGET_PDB = Learning_of_Cpp_One.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Learning_of_Cpp_Two
+
+
+#############################################
+# Order-only phony target for Learning_of_Cpp_Two
+
+build cmake_object_order_depends_target_Learning_of_Cpp_Two: phony || CMakeFiles/Learning_of_Cpp_Two.dir
+
+build CMakeFiles/Learning_of_Cpp_Two.dir/test.cpp.obj: CXX_COMPILER__Learning_of_Cpp_Two_Debug C$:/Users/treel/Projects/Clion/Learning-of-Cpp/test.cpp || cmake_object_order_depends_target_Learning_of_Cpp_Two
+  DEP_FILE = CMakeFiles\Learning_of_Cpp_Two.dir\test.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/treel/Projects/Clion/Learning-of-Cpp/.
+  OBJECT_DIR = CMakeFiles\Learning_of_Cpp_Two.dir
+  OBJECT_FILE_DIR = CMakeFiles\Learning_of_Cpp_Two.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Learning_of_Cpp_Two
+
+
+#############################################
+# Link the executable Learning_of_Cpp_Two.exe
+
+build Learning_of_Cpp_Two.exe: CXX_EXECUTABLE_LINKER__Learning_of_Cpp_Two_Debug CMakeFiles/Learning_of_Cpp_Two.dir/test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Learning_of_Cpp_Two.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Learning_of_Cpp_Two.exe
+  TARGET_IMPLIB = libLearning_of_Cpp_Two.dll.a
+  TARGET_PDB = Learning_of_Cpp_Two.exe.dbg
 
 
 #############################################
@@ -107,7 +134,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Learning_of_Cpp: phony Learning_of_Cpp.exe
+build Learning_of_Cpp_One: phony Learning_of_Cpp_One.exe
+
+build Learning_of_Cpp_Two: phony Learning_of_Cpp_Two.exe
 
 # =============================================================================
 # Folder targets.
@@ -117,7 +146,7 @@ build Learning_of_Cpp: phony Learning_of_Cpp.exe
 #############################################
 # Folder: C:/Users/treel/Projects/Clion/Learning-of-Cpp/cmake-build-debug
 
-build all: phony Learning_of_Cpp.exe
+build all: phony Learning_of_Cpp_One.exe Learning_of_Cpp_Two.exe
 
 # =============================================================================
 # Built-in targets
