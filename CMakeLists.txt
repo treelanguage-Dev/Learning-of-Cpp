@@ -5,7 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(Learning_of_Cpp_One
+add_executable(Learning_of_Cpp
         main.cpp)
-add_executable(Learning_of_Cpp_Two
-        test.cpp)

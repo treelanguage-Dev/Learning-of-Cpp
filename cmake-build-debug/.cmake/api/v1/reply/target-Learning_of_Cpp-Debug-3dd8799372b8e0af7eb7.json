@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Learning_of_Cpp_One.exe"
+			"path" : "Learning_of_Cpp.exe"
 		},
 		{
-			"path" : "Learning_of_Cpp_One.pdb"
+			"path" : "Learning_of_Cpp.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -73,7 +73,7 @@
 			]
 		}
 	],
-	"id" : "Learning_of_Cpp_One::@6890427a1f51a3e7e1df",
+	"id" : "Learning_of_Cpp::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -93,8 +93,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Learning_of_Cpp_One",
-	"nameOnDisk" : "Learning_of_Cpp_One.exe",
+	"name" : "Learning_of_Cpp",
+	"nameOnDisk" : "Learning_of_Cpp.exe",
 	"paths" : 
 	{
 		"build" : ".",

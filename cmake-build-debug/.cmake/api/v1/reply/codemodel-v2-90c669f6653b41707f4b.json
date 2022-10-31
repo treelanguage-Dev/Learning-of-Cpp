@@ -15,8 +15,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -31,8 +30,7 @@
 					"name" : "Learning_of_Cpp",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -40,16 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Learning_of_Cpp_One::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Learning_of_Cpp_One-Debug-21668ca1e73cc0cc9aa9.json",
-					"name" : "Learning_of_Cpp_One",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Learning_of_Cpp_Two::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Learning_of_Cpp_Two-Debug-f252ab3dd2b2844fb4c7.json",
-					"name" : "Learning_of_Cpp_Two",
+					"id" : "Learning_of_Cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Learning_of_Cpp-Debug-3dd8799372b8e0af7eb7.json",
+					"name" : "Learning_of_Cpp",
 					"projectIndex" : 0
 				}
 			]

@@ -1,4 +1,3 @@
-C:/Users/treel/Projects/Clion/Learning-of-Cpp/cmake-build-debug/CMakeFiles/Learning_of_Cpp_One.dir
-C:/Users/treel/Projects/Clion/Learning-of-Cpp/cmake-build-debug/CMakeFiles/Learning_of_Cpp_Two.dir
+C:/Users/treel/Projects/Clion/Learning-of-Cpp/cmake-build-debug/CMakeFiles/Learning_of_Cpp.dir
 C:/Users/treel/Projects/Clion/Learning-of-Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/treel/Projects/Clion/Learning-of-Cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
